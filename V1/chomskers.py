@@ -17,7 +17,7 @@ class Chomskers:
                         raise ValueError
                 return struct 
             except ValueError:
-                print("Pls input a structure like ADJ N V, it doesn't care which order")
+                print("Pls input a structure like ADJ N V, so long as it's well formed, the two disallowed are ADJ V and N ADJ")
     def verify(self):
         for pattern in self.patterns:
             if re.search(pattern, " ".join(self.struct)):
@@ -35,4 +35,5 @@ class Chomskers:
             print(sentence)
 
 chomskers = Chomskers()
+
 chomskers.run()
