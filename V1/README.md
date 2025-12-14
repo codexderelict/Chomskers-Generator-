@@ -4,6 +4,6 @@ quite fun.
 Well-formedness is based upon constraints defined in a list of regular expressions (in illegal.py). So far, there's only two rules, but this can of course be expanded with the addition of new POS. It picks from a bank of words in a dictionary, sorted by part of speech. 
 # POTENTIAL IMPROVEMENTS:
 Addition of new parts of speech (adverbs, for example)  
-New words for each category
-Transitivity separations (V N is illegal under certain circumstances)
-Either a command-line (argparse) based input method, or a tiny little GUI  
+New words for each category  
+Transitivity separations (V N is illegal under certain circumstances)  
+Either a command-line (argparse) based input method, or a tiny little GUI   
